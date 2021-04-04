@@ -1,0 +1,28 @@
+.centered{
+    margin: 10px auto;
+}
+
+.item-form{
+    width: 75%;
+    margin: 15px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.form-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-lable{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.form-control{
+    display: block;
+    width: 100%;
+    flex-grow: 1;
+}
