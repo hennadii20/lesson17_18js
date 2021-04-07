@@ -1,6 +1,9 @@
 import { useState, useCallback } from 'react';
 import Button from '../Button/Button';
 import ItemForm from '../ItemForm/ItemForm';
+import './App.css';
+
+
 
 
 function generateId(){
@@ -56,7 +59,7 @@ function App() {
             {isFormVisible ?(<ItemForm onSave={createNewTrack}/>) : null}
 
             <div clsssName = "centered">
-                <button onClick = {handleCreateNewTrack}>Create new track</button>
+                <button clsssName="create-btn" onClick = {handleCreateNewTrack}>Create new track</button>
             </div>
         </div>
     )
