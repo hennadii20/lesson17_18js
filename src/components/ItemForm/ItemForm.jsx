@@ -1,5 +1,7 @@
-import './ItemForm.css';
+
 import { useState, useCallback } from 'react';
+import Button from 'react-bootstrap/Button';
+import './ItemForm.css';
 
 const ItemForm = (props) => {
 
@@ -40,7 +42,7 @@ const ItemForm = (props) => {
                 </select>
             </div>
             <div className='centered'>
-                <button type='submit'>Save</button>
+                <Button  variant="outline-primary" type='submit'>Save</Button>
             </div>
         </form>
     );

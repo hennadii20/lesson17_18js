@@ -1,0 +1,63 @@
+
+.item-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(125, 125, 189);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    transition: border 0.1s;
+  }
+  
+  .item-song {
+    width: 70%;
+    text-align: center;
+    color: rgb(97, 74, 74);
+  }
+  
+  .item-author {
+    text-align: center;
+    color: rgb(97, 74, 74);
+    width: 70%;
+  }
+  
+  .item-status{
+    text-align: center;
+    color: rgb(97, 74, 74);
+    width: 20%;
+  }
+  
+  .item-button {
+    width: 35%;
+    padding: 1px;
+    border: 1px colid white;
+    border-radius: 10px;
+    margin: 5px;
+  }
+  
+  .is-Play{
+    color: rgb(93, 9, 172);
+    border: 2px solid rgb(70, 70, 201);
+    background-color: rgb(134, 189, 190);
+   
+  }
+  
+  .item-status-Play{
+    color: red;
+    font-weight: bold;
+  
+  }
+
+  .button_group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    display: inline-block;
+    flex-direction: row;
+    margin: 10px;
+  }
